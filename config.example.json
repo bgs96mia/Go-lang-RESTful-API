@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "Golang-RESTful-API"
+  },
+  "web": {
+    "prefork": false,
+    "port": 8080
+  },
+  "log": {
+    "level": 6
+  },
+  "database": {
+    "username": "username",
+    "password": "password",
+    "host": "localhost",
+    "port": 3306,
+    "name": "name database",
+    "pool": {
+      "idle": 10,
+      "max": 100,
+      "lifetime": 300
+    }
+  }
+}
